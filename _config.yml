@@ -3,8 +3,8 @@ title:       The YASP Blog
 email:       ""
 author:      Howard Chung, Albert Cui
 description: "A blog"
-baseurl:     "/"
-url:         ""
+baseurl:     ""
+url:         "/"
 date_format: "%b %-d, %Y"
 
 # Google services
