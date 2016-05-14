@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Lessons Learned From Parsing 10 Million Replays
-date:       2016-05-21 23:21:29
+date:       2016-05-13 23:21:29
 summary:    Things we learned from this project.
 categories: 
 ---
