@@ -1,14 +1,17 @@
-{{{
-  "title": "Lessons Learned From Parsing 10 Million Replays",
-  "date": "5-14-2016",
-  "author": "Howard and Albert"
-}}}
+---
+layout:     post
+title:      Lessons Learned From Parsing 10 Million Replays
+date:       2016-05-13 23:21:29
+summary:    Things we learned from this project.
+categories: 
+---
 
 Working on this project has been a highly educational experience for both of us.
 
 Here are some of the things we learned along the way.  We hope this summary helps aspiring developers with their own projects!
 
 ## Origins
+
   * Started in August 2014
   * @albertcui found some replay parsing libraries on GitHub.  We wondered what data we could get from Dota replays.
   * [clarity](https://github.com/skadistats/clarity)
@@ -21,6 +24,7 @@ Here are some of the things we learned along the way.  We hope this summary help
     * Still basically the same, we subsist on donations and lower the goal to match our hardware costs.
 
 ## Growth
+
   * We got 1000 users from the first [post](https://www.reddit.com/r/DotA2/comments/2sp595/introducing_yasp_a_free_opensource_stats_website/) in January 2015.  We were only expecting 100 or so.  Oops!
   * The uncontrollable flood of frontpage.  Reddit can and will hug your site to death.  Repeatedly.  Once your post makes it to frontpage you can't really stop the influx.
   * Either plan ahead before you go public or be prepared to explain the downtime/queue lengths.
@@ -34,6 +38,7 @@ Here are some of the things we learned along the way.  We hope this summary help
     * If someone is having trouble with something on your site, help them out!  They'll often find edge cases you didn't think about, and they appreciate the time you take to help them out.
 
 **Data volume**
+
   * People play a ton of Dota!  Some quick numbers:
     * ~1.2 billion public matches total, as of May 2015
       * Why is the match ID up to 2.3 billion?  Not all IDs end up finishing as public games.
@@ -45,6 +50,7 @@ Here are some of the things we learned along the way.  We hope this summary help
       * Use this to help you with capacity planning in the early stages.
 
 ## Scaling
+
   * Start small, grow with your userbase!
     * Don't try to import every match right away.  It'll cost you a ton of money/time and you probably don't need most of it at first.
   * Use a timeout/inactivity check for expensive operations.
@@ -52,12 +58,14 @@ Here are some of the things we learned along the way.  We hope this summary help
     * For us this is parsing replays (orders of magnitude more expensive than just inserting data from the WebAPI).
 
 **Caching**
+
   * Cloudflare
     * Use them or Akamai/some other CDN.  You don't want to serving up static assets like images, CSS, and JS yourself for millions of pageviews.
   * Redis
     * Redis makes a great cache for immutable data, like matches.  If someone posts a match link on Reddit and 1000 people click it, you only hit your DB once.  
     
 **Minimizing cost -- how to run as cheaply as possible**
+
   * No employees.  People cost way more than machines.
     * Some quick math: A software engineer costs roughly 100,000 a year/8,000 a month.  In comparison the servers only cost ~1,500/month.
     * This means you are going to have to know how to develop your site full-stack yourself.  Don't worry if you're new at this.  You can learn as you go!
@@ -69,11 +77,13 @@ Here are some of the things we learned along the way.  We hope this summary help
   * Free software.  There are tons of cool projects out there and you can get help from other users.
 
 ## Engineering
+
   * Don't try to build your own solution to everything.
     * Use Steam OAuth, don't try to roll your own auth.  You'll need account_id anyway so you can link them to the data you're getting from the Steam API.
     * Use payment processors. Stripe/Paypal will take around 10% of your donations, but it's better than trying to handle payment info yourself.
 
 **Steam API**
+
   * It's not well documented.  Some useful resources:
     * http://dev.dota2.com/showthread.php?t=58317  A quick introduction to your available endpoints and what data you can get.
     * https://lab.xpaw.me/steam_api_documentation.html  Very cool interactive API explorer.
@@ -83,6 +93,7 @@ Here are some of the things we learned along the way.  We hope this summary help
   * There is also an IP limit of about 5-6 calls per second.
 
 **Replay Parsing**
+
   * Even less supported than the API.
   * Your best bet is to ask the replay parser developer of your chosen library for help.
   * Figuring out the raw binary format of the replay (a long series of protobuf messages) is a nontrivial task.
@@ -91,16 +102,19 @@ Here are some of the things we learned along the way.  We hope this summary help
   * You probably won't able to store a large number of them, so parse them to reduce them to just the data you're interested in.
 
 **Microservices**
+
   * Simplify your code.  Each service should perform a specific task.
   * Fail separately.  One service crashing won't bring down your whole site.
   * Scale individually.  If you find that you're bottlenecked by one worker, you can easily deploy multiple instances of it to scale out.
 
 **Continuous Integration**
+
   * Travis CI is free for open source!
   * Automate your testing/building after every commit.
   * Cool GitHub badge for your repo
 
 **Docker (containers)**
+
   * Run your external code (Postgres, Redis) separately.  You can spin up a new box and rapidly get them running/swap versions if desired.
   * Makes it easy to move pieces of your infrastructure around.
   * Consistent development environment.  You know what you have running on your devbox will match production since it's all Dockerized.
@@ -109,6 +123,7 @@ Here are some of the things we learned along the way.  We hope this summary help
   * With Docker you can just kill your container/VM and start a brand new one with the latest image.
 
 **Cloud vs Dedicated**
+
   * Pros of cloud:
     * It's easier to dynamically scale.  
       * More CPU?  Spin up new instances in a matter of seconds.
@@ -122,6 +137,7 @@ Here are some of the things we learned along the way.  We hope this summary help
     * Avoid hosted services, just run open-source software on a VM.  It's way cheaper to run Redis on a VM than it is to pay for hosted Redis, etc.  As a bonus you also get to learn how it works.
 
 **Data**
+
   * Keep backups!
     * Accidentally deleted our data once.  It was a stressful few days to recover.
     * Take a backup before you do any major changes.
@@ -150,6 +166,7 @@ Here are some of the things we learned along the way.  We hope this summary help
       * \- Restricted in the filtering/aggregation you can do.  Okay for us since we do our filtering/aggregations on the data we read out.
 
 **Telemetry**
+
   * You'll want to build yourself some kind of status page.
   * Quickly see what's going wrong, so you can fix it.
   * Monitor service: Write code to automatically do status checks.
@@ -157,10 +174,12 @@ Here are some of the things we learned along the way.  We hope this summary help
     * Extra bonus points: make it call you so you can be on-call 24/7 and wake up at 3AM to put out fires!
 
 **Configuration**
+
   * Don't put secrets in your code!  It's really easy to accidentally push them to GitHub, and then you have to deal with rotating them.  This sucks, and people will laugh at you while [Russian hackers pwn your webapp](http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454).
   * Put your config settings in one place.  It makes it easy for developers to see what settings can be changed.
 
 **Security**
+
   * Reduce state provided by users.
     * The fewer ways there are for users to provide data the less likely you'll have some security problem.
     * 99.99% of your users can be well-behaved, but that one guy will bring down your site by himself.
@@ -168,12 +187,14 @@ Here are some of the things we learned along the way.  We hope this summary help
 * Automate things.  You don't want to be hunting down new strings, etc. every time Valve patches.  Find sources for this data and have scripts to update them.
 
 ## Monetization - The Donation Model
+
   * Be prepared for good and bad months.
     * Typically if you release a feature, people will donate more in response, and if you don't, it will stagnate.
     * Use a subscription model if you want a steadier revenue stream.  Otherwise be prepared to pay out-of-pocket to cover bad months if you need to.
   * In our experience, around 1% of users will donate.  Might be more or less depending on who your users are.
 
 ## Goals
+
   * Raise [Bus factor](https://en.wikipedia.org/wiki/Bus_factor)
     * The minimum number of people that could be hit by a bus and bring down your project.
     * We want this number higher than 2
