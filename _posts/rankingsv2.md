@@ -1,8 +1,10 @@
-{{{
-  "title": "Rankings Algorithm Update",
-  "date": "5-13-2016",
-  "author": "Howard"
-}}}
+---
+layout:     post
+title:      Rankings Algorithm Update
+date:       5-13-2016 22:21:29
+summary:    After evaluating feedback from the initial release of rankings I've updated the ranking algorithm to address some of the feedback.
+categories: 
+---
 
 After evaluating feedback from the initial release of rankings I've updated the ranking algorithm to address some of the feedback.
 
