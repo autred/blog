@@ -1,8 +1,10 @@
-{{{
-  "title": "May Financial Report and Dynamic Ads",
-  "date": "5-14-2016",
-  "author": "Albert"
-}}}
+---
+layout:     post
+title:      May Financial Report and Dynamic Ads
+date:       2014-05-14 11:21:29
+summary:    Today, we're bringing back ads to YASP.
+categories: 
+---
 
 Today, we're bringing back ads to YASP.
 
