@@ -1,8 +1,10 @@
-{{{
-  "title": "Lessons Learned From Parsing 10 Million Replays",
-  "date": "5-14-2016",
-  "author": "Howard and Albert"
-}}}
+---
+layout:     post
+title:      Lessons Learned From Parsing 10 Million Replays
+date:       2016-05-21 23:21:29
+summary:    Things we learned from this project.
+categories: 
+---
 
 Working on this project has been a highly educational experience for both of us.
 
