@@ -1,8 +1,10 @@
-{{{
-  "title": "YASP, MMR, and You",
-  "date": "1-13-2016",
-  "author": "Albert"
-}}}
+---
+layout:     post
+title:      YASP, MMR, and You
+date:       2016-01-13 00:00:00
+summary:    We've been getting a lot of questions about how MMR tracking works now, and we're sorry for not making it clear.
+categories: 
+---
 
 We've been getting a lot of questions about how MMR tracking works now, and we're sorry for not making it clear.
 When Valve rolled out Source 2, they changed how MMR is displayed. Instead of only your friends being able
