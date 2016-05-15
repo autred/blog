@@ -40,7 +40,7 @@ Here are some of the things we learned along the way.  We hope this summary help
 **Data volume**
 
   * People play a ton of Dota!  Some quick numbers:
-    * ~1.2 billion public matches total, as of May 2015
+    * ~1.2 billion public matches total, as of May 2016
       * Why is the match ID up to 2.3 billion?  Not all IDs end up finishing as public games.
     * ~1.1 million matches a day, 1.4 million on weekends
     * Importing every match will take you a couple of months.  Don't do it lightly.
