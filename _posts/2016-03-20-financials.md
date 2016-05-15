@@ -1,8 +1,10 @@
-{{{
-  "title": "March 2016 YASP Financials",
-  "date": "3-20-2016",
-  "author": "Albert"
-}}}
+---
+layout:     post
+title:      March Financial Report
+date:       2016-03-20 00:00:00
+summary:    We started YASP with one goal in mind: free Dota 2 statistics for everyone who wants them.
+categories: 
+---
 
 We started YASP with one goal in mind: free Dota 2 statistics for everyone who wants them.
 
