@@ -2,6 +2,7 @@
 layout: page
 title: FAQ
 permalink: /faq
+tags: faq
 ---
 
 How are you different from all the other stats sites?
