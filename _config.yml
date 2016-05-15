@@ -2,7 +2,7 @@
 title:       The YASP Blog
 email:       ""
 author:      Howard Chung, Albert Cui
-description: "A blog"
+description: "Open source Dota 2 statistics"
 baseurl:     ""
 url:         "/"
 date_format: "%b %-d, %Y"
