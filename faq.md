@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FAQ
-permalink: /faq
+permalink: /faq/
 tags: about
 ---
 
@@ -129,4 +129,4 @@ Nick comes up with ideas for cool machine learning things we can do with the d
             
 ## How can I help if I don't know how to code?
 
-If you're not a developer, you can buy some <a href='/carry' target="_blank">Cheese</a> to help pay for servers, or tell your friends about how awesome this site is : )
+If you're not a developer, you can buy some <a href='//yasp.co/carry' target="_blank">Cheese</a> to help pay for servers, or tell your friends about how awesome this site is : )
