@@ -1,8 +1,10 @@
-{{{ "title": "The Last Two Months", "tags": ["release"], "date": "07-07-2015", "author": "Howard and Albert"}}}
-
-What have we been up to?
-
-<!--more-->
+---
+layout:     post
+title:      The Last Two Months
+date:       2015-07-07 00:00:00
+summary:    What have we been up to?
+categories: 
+---
 
 Development has slowed a little over the last two months as we approach feature maturity and due to our summer employment obligations.
 
