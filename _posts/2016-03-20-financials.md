@@ -2,10 +2,9 @@
 layout:     post
 title:      March Financial Report
 date:       2016-03-20 00:00:00
-summary:    We started YASP with one goal in mind: free Dota 2 statistics for everyone who wants them.
+summary:    We started YASP with one goal in mind--free Dota 2 statistics for everyone who wants them.
 categories: 
 ---
-
 We started YASP with one goal in mind: free Dota 2 statistics for everyone who wants them.
 
 So far, we've done a pretty good job.
