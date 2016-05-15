@@ -1,9 +1,7 @@
 ---
-layout:     post
-title:      FAQ
-date:       2016-05-13 23:59:29
-summary:    Frequently asked questions.
-categories: 
+layout: page
+title: FAQ
+permalink: /faq
 ---
 
 How are you different from all the other stats sites?
