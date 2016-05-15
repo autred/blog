@@ -1,8 +1,10 @@
-{{{
-  "title": "April 2016 YASP Financials",
-  "date": "4-20-2016",
-  "author": "Albert"
-}}}
+---
+layout:     post
+title:      April Financial Report
+date:       2016-04-20 00:00:00
+summary:    Happy 4/20!
+categories: 
+---
 
 Happy 4/20!
 
