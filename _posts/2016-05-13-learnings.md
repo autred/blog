@@ -89,6 +89,9 @@ Here are some of the things we learned along the way.  We hope this summary help
     * https://lab.xpaw.me/steam_api_documentation.html  Very cool interactive API explorer.
   * It can fail randomly and in weird ways.
     * Seen: blobs with `{}`, blobs with `{status: 1}`, non-200 response codes, no response at all, etc.  Make sure to identify and handle all the edge cases.
+  * It can respond really slowly.  If this happens you might fall behind on getting the latest matches.
+  * It goes down quite a bit.  Since this is the only source of Dota 2 data you're out of luck until it recovers.
+  * There are weird inconsistencies in naming.  There are fields called `account_id` and `match_id` but also one called `leagueid`.
   * Documented limit is 100,000 API calls per day.  This is roughly one call per second.
   * There is also an IP limit of about 5-6 calls per second.
 
