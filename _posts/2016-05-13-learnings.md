@@ -17,7 +17,7 @@ Here are some of the things we learned along the way.  We hope this summary help
   * [clarity](https://github.com/skadistats/clarity)
     * Our replay parsing library of choice.
     * Why'd we pick it?
-      * Documentation is important.  It had the best examples/documentation of all the choices we looked at.
+      * Documentation is important.  It had the best exampoles/documentation of all the choices we looked at.
       * Martin [(@spheenik)](https://github.com/spheenik) offers great support for his library.
   * The idea was that we'd build some fun feature for ourselves, and be able to deploy it rapidly to hundreds of users.
   * No business plan/monetization.  We were still both in school at the time and not really interested in making a profit.
@@ -79,7 +79,7 @@ Here are some of the things we learned along the way.  We hope this summary help
 ## Engineering
 
   * Don't try to build your own solution to everything.
-    * Use Steam OAuth, don't try to roll your own auth.  You'll need account_id anyway so you can link them to the data you're getting from the Steam API.
+    * Use Steam OpenID, don't try to roll your own auth.  You'll need account_id anyway so you can link them to the data you're getting from the Steam API.
     * Use payment processors. Stripe/Paypal will take around 10% of your donations, but it's better than trying to handle payment info yourself.
 
 **Steam API**
