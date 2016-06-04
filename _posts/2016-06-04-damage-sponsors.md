@@ -11,7 +11,7 @@ He did a lot of damage to you.
 
 -------
 
-We're also proud to announce our first official corporate sponsor: [Jist.tv](https://www.jist.tv/). We've all seen
+We're also proud to announce our first official corporate sponsor: <https://www.jist.tv/>. We've all seen
 highlight videos of pro matches. Now, you can have your own video highlights, just like your 9K MMR deserves. Jist
 lets you easily make videos from your match replays, through replay upload or, now, through the Jist button on each
 YASP match page. You can watch these replays on mobile or any browser, easily share them with friends, 
@@ -22,11 +22,11 @@ with YASP and what we're doing -- what better way to analyze a match than to act
 keeps our servers running, so that we can continue to provide a powerful service for free and to as many users as possible.
 
 If you're interested in a sponsorship, or have an idea on othe revenue streams we can persue to keep YASP running,
-send us an email to support@yasp.co.
+send us an email to <support@yasp.co>.
 
 -------
 
-Finally, we're working on rewriting our front end and our UI. It's a work in progress, but you can follow it [http://ui.yasp.co/].
+Finally, we're working on rewriting our front end and our UI. It's a work in progress, but you can follow it <http://ui.yasp.co/>.
 
 One of the most major complaints we've seen about YASP has been its UI, so we're really hoping to improve it. If you have
 any suggestions, hit us up on our [Discord channel](https://discord.gg/0o5SQGbXuWCNDcaF).
