@@ -26,7 +26,8 @@ send us an email to <support@yasp.co>.
 
 -------
 
-Finally, we're working on rewriting our front end and our UI. It's a work in progress, but you can follow it <http://ui.yasp.co/>.
+Finally, we're working on rewriting our front end and our UI. It's a (really large) work in progress, but you can follow its 
+development at <http://ui.yasp.co/>. As always, it's completely [open source](https://github.com/yasp-dota/ui). Feel free to help out! We're writing it as a SPA in React.
 
 One of the most major complaints we've seen about YASP has been its UI, so we're really hoping to improve it. If you have
 any suggestions, hit us up on our [Discord channel](https://discord.gg/0o5SQGbXuWCNDcaF).
