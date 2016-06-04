@@ -21,7 +21,7 @@ Jist is an example of exactly the kind of partership we're looking for for YASP.
 with YASP and what we're doing -- what better way to analyze a match than to actually watch it? And obviously, the partership
 keeps our servers running, so that we can continue to provide a powerful service for free and to as many users as possible.
 
-If you're interested in a sponsorship, or have an idea on othe revenue streams we can persue to keep YASP running,
+If you're interested in a sponsorship, or have an idea on othe revenue streams we can pursue to keep YASP running,
 send us an email to <support@yasp.co>.
 
 -------
