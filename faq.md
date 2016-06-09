@@ -9,7 +9,7 @@ tags: about
 
 Here are some of the features we think make us unique.  We also try to focus development on features that aren't already available elsewhere for free.
 
-* Free public match replay parsing.  Most similar services offer this as a premium feature.  Replay parsing allows us to extract much more data from games than the API offers.
+* Public match replay parsing.  Replay parsing allows us to extract much more data from games than the WebAPI offers.
 
 * Open source.  We keep our code open source, so anyone can help contribute, or learn from our work and apply it to their own projects.  We also have downloads of player and match data for users to do their own analysis.
 
@@ -22,24 +22,21 @@ There is a setting in the Dota 2 client called "Expose Public Match Data".
 It is off by default, and if not enabled, your account_id is hidden in the Dota 2 API, so we can't identify you as the player who played in the match (although we still have a record of the match itself).
 Once enabled, any matches played after that point should show up in your profile.
 
-## Why isn't [some match] being parsed?
+## Why isn't advanced data available for some of my matches?
 
-There are several reasons why we wouldn't have parsed data for a match:
+This data comes from replay files (not the WebAPI), and there are several reasons:
 
 * The replay isn't ready yet.  There is usually a delay after the match (~10 minutes) while we wait for Valve to make the replay downloadable. 
 
 * The replay might not be available.  This happens occasionally, particularly in the SEA region.  If you can't get the replay in the client, we can't get it either.
 
-* The match had no users who've visited recently.  We don't automatically parse these matches because they're unlikely to be looked at.  We still get the basic data from the API, but don't queue it for parse.
+* The match had no users who've visited recently.  We don't automatically parse these replays because they're unlikely to be looked at.  We still get the basic data from the API, but don't queue it for replay parsing.
 
-* The Dota 2 Network is down.  During server maintenances (usually on Tuesday), we can't get replays until we can connect again.
+* API/GC issues.  If the Steam API is down, we can't find out about new matches, and if the GC (Game Coordinator) is down, we can't get replays to parse.
 
-* The parser crashed while trying to parse the match.  This might happen if something weird happened in the replay file that we didn't expect.
+* The parser crashed while trying to parse the match.  This might happen if something weird happened in the replay file that we didn't expect.  If you suspect a replay is breaking the parser, please open an issue on GitHub!
 
-* The replay is expired.  Valve deletes replays after 7 days, so we can't parse these matches.
-
-Since we only parse the replays of active users, we have only parsed a small percentage of all the Dota 2 matches ever played, and only those after August 2014.
-This means we probably won't be able to do replay parsing for the majority of your historical matches (from before registration).
+* The replay is expired.  Valve deletes replays after 10 days.  This means we probably won't be able to do replay parsing for most matches before you registered.  Parsed matches before that point are due to other players in the game having signed up previously.
 
 
 ## What do I do if I want to develop a feature/report a bug?
@@ -71,6 +68,10 @@ A publicly hosted deployment is managed by some of the contributors:
 
 Albert Cui:
 
+<div>
+<img src="https://avatars3.githubusercontent.com/u/3838552?v=3&s=150"/>
+</div>
+
 * [albertcui.com](http://albertcui.com)
 * [/u/Triple_A](http://reddit.com/user/Triple_A)
 * [Player Profile](/players/102344608)
@@ -78,11 +79,11 @@ Albert Cui:
 Albert founded the project.
 He built the donation system, writes blog posts, creates data dumps, and produces financial reports.
 
+Howard Chung:
+
 <div>
 <img src="https://avatars2.githubusercontent.com/u/3134520?v=3&s=150"/>
 </div>
-
-Howard Chung:
 
 * [howardchung.net](http://howardchung.net)
 * [/u/suuuncon](http://reddit.com/user/suuuncon)
@@ -92,14 +93,11 @@ Howard's a software engineer (Duke University '15) and casual Dota 2 player.
 His favorite heroes are Nature's Prophet, Terrorblade, and Lycan, so he's probably that guy you hate in your pub matches.
 He wrote most of the code, believes in rapid deployment cycles, and tries not to break things too much.
 
-<div>
-<img src="https://avatars3.githubusercontent.com/u/3838552?v=3&s=150"/>
-</div>
+Nicholas Hanson-Holtry:
 
 <div>
 <img src="https://avatars1.githubusercontent.com/u/9388670?v=3&s=150"/>
 </div>
-Nicholas Hanson-Holtry:
 
 * [/u/waterandshade](http://reddit.com/user/waterandshade)
 * [Player Profile](/players/75392401)
