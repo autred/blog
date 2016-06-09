@@ -65,13 +65,23 @@ We would also appreciate a credit/attribution in your project if you use our cod
 
 ## Who are the people behind the site?
 
-The project is maintained by the core dev team, along with contributions from interested community developers.
+Development is done by the community, and is open to any interested developer.
 
-Development began in August 2014, with a public release in January 2015.  
+A publicly hosted deployment is managed by some of the contributors:
+
+Albert Cui:
+
+* [albertcui.com](http://albertcui.com)
+* [/u/Triple_A](http://reddit.com/user/Triple_A)
+* [Player Profile](/players/102344608)
+
+Albert founded the project.
+He built the donation system, writes blog posts, creates data dumps, and produces financial reports.
 
 <div>
 <img src="https://avatars2.githubusercontent.com/u/3134520?v=3&s=150"/>
 </div>
+
 Howard Chung:
 
 * [howardchung.net](http://howardchung.net)
@@ -80,20 +90,11 @@ Howard Chung:
 
 Howard's a software engineer (Duke University '15) and casual Dota 2 player.
 His favorite heroes are Nature's Prophet, Terrorblade, and Lycan, so he's probably that guy you hate in your pub matches.
-He also enjoys playing ultimate and board games.
-
-Howard wrote most of the code and is constantly playing with new technologies to strive for better performance and lower cost.
+He wrote most of the code, believes in rapid deployment cycles, and tries not to break things too much.
 
 <div>
 <img src="https://avatars3.githubusercontent.com/u/3838552?v=3&s=150"/>
 </div>
-Albert Cui:
-
-* [albertcui.com](http://albertcui.com)
-* [/u/Triple_A](http://reddit.com/user/Triple_A)
-* [Player Profile](/players/102344608)
-
-Albert came up with the original idea for the site and manages the bills.  He built the donation system.
 
 <div>
 <img src="https://avatars1.githubusercontent.com/u/9388670?v=3&s=150"/>
@@ -103,14 +104,14 @@ Nicholas Hanson-Holtry:
 * [/u/waterandshade](http://reddit.com/user/waterandshade)
 * [Player Profile](/players/75392401)
 
-Nick comes up with ideas for cool machine learning things we can do with the d
+Nick comes up with ideas for cool machine learning things to do with the data.
+We're trying to get him to do more.
 
 ## What is your privacy policy?
 
 * All of the data provided comes from public sources such as the Steam WebAPI, Steam community profiles, and match replay files.
-* Valve allows you to opt-out by not selecting "Expose Public Match Data" in your Dota 2 options.  This causes you to appear as anonymous in future matches, although existing data is not deleted.
+* Valve allows you to opt-out by having "Expose Public Match Data" unchecked in your Dota 2 options.  This causes you to appear as anonymous in future matches, although existing data is not deleted.
 * We use Google Analytics (and therefore cookies) to monitor site traffic. For more information, see [Google's privacy terms](https://www.google.com/policies/privacy/partners/).
-
 
 ## What are your terms and conditions?
 
