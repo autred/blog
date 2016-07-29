@@ -18,10 +18,10 @@ The list is from a Steam API endpoint called GetProPlayerList.
 
 ### Denies @ 10
 This stat is now available on match pages! A huge Thank You to community developer [@lomash](https://github.com/lomash)
-for implementing this feature!!! See how it was done [here](https://github.com/yasp-dota/yasp/pull/1074)
+for implementing this feature!!! See how it was done [here](https://github.com/yasp-dota/yasp/pull/1074).
 
 ### Ranking Update
-We've updated our ranking system to more accurately rank the best players at the top. 
+We've updated our [ranking system](https://yasp.co/rankings) to more accurately rank the best players at the top. 
 
 We've increased weighting of MMR again for the 2016Q3 ranking cycle, which started 2016-07-01. Essentially, a player 
 with half the MMR of another player now needs 64 times as many wins to have the same ranking score.
