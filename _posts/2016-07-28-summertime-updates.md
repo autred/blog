@@ -16,7 +16,7 @@ you the best chance of getting your predictions right! Check out our insights [h
 A new tab on each player page now shows the games that that player has played with professional players!
 The list is from a Steam API endpoint called GetProPlayerList.
 
-### Denies@10
+### Denies @ 10
 This stat is now available on match pages! A huge Thank You to community developer [@lomash](https://github.com/lomash)
 for implementing this feature!!! See how it was done [here](https://github.com/yasp-dota/yasp/pull/1074)
 
