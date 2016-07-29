@@ -26,6 +26,14 @@ We've updated our [ranking system](https://yasp.co/rankings) to more accurately 
 We've increased weighting of MMR again for the 2016Q3 ranking cycle, which started 2016-07-01. Essentially, a player 
 with half the MMR of another player now needs 64 times as many wins to have the same ranking score.
 
+### DotaCoach
+
+We're proud to announce our new partnership with [DotaCoach](https://dotacoach.org/) to help you improve your game. 
+DotaCoach.org is an on demand service sort of like an "Uber" for learning Dota. Review your YASP stats with a coach or ask 
+them any questions you have on how to improve. Or just play a game together. Interacting with a skilled player is one of the 
+best ways to improve at the game.
+
+We love partnerships like these that help us further our mission: to make you a better Dota player.
 
 ***
 
