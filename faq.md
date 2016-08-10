@@ -121,7 +121,7 @@ We're trying to get him to do more.
 * Something is wrong! I'm being billed a lot! Or something.
   * Email us at support@yasp.co. Sorry about that.
 * How can I cancel my subscription?
-  * Click [here](/cancel). This will cancel ALL your subscriptions.
+  * Click [here](https://yasp.co/cancel). This will cancel ALL your subscriptions.
             
 ## How can I help if I don't know how to code?
 
