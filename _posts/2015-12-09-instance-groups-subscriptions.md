@@ -1,13 +1,9 @@
-{{{
-  "title": "Infrastructure and Subscriptions",
-  "tags": ["release"],
-  "date": "12-9-2015",
-  "author": "Albert"
-}}}
-
-Improving YASP's stability and reliability has always been a primary goal of ours.
-
-<!--more-->
+---
+layout:     post
+title:      Instance Groups and Subscriptions
+summary:    Improving YASP's stability and reliability has always been a primary goal of ours.
+categories: 
+---
 
 Over the past ten months, we've rewritten our system architecture multiple times to allow us to (hopefully)
 be more and more reliable. We're running a microservice architecture where each service can fail and crash
