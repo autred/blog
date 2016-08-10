@@ -31,9 +31,9 @@ Each node also has a 10GB SSD disk attached as a boot disk.
 Preemptible:
 
  * We save money by running all our application code on preemptible instances.  
- * They have a maximum lifetime of 24 hours, but since they live in instance groups, GCE automatically spins up new nodes to replacesthe ones that expire.  
+ * They have a maximum lifetime of 24 hours, but since they live in instance groups, GCE automatically spins up new nodes to replace the ones that expire.  
  * There are 3 web nodes, so a single node restarting does not interrupt service.  
- * Parse and backend nodes can be down for a few minutes without service impact.
+ * Parse and backend nodes can be down for a few minutes without major service impact.
 
 Autoscaling:
 
