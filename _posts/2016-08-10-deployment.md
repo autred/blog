@@ -5,7 +5,10 @@ summary:    An overview of the deployment process and infrastructure that powers
 categories: 
 ---
 
-YASP is hosted mostly on Google Compute Engine (GCE). This choice was made for two main reasons:
+YASP is hosted mostly on Google Compute Engine (GCE). 
+
+This choice was made for two main reasons:
+
  * GCE offers flexible capacity resizing of both computational power and storage
  * GCE offers extremely cheap preemptible instances which are an excellent value for interruptible CPU-bound workloads, such asreplay parsing.
 
