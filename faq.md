@@ -74,7 +74,6 @@ Albert Cui:
 
 * [albertcui.com](http://albertcui.com)
 * [/u/Triple_A](http://reddit.com/user/Triple_A)
-* [Player Profile](/players/102344608)
 
 Albert founded the project.
 He built the donation system, writes blog posts, creates data dumps, and produces financial reports.
@@ -86,8 +85,7 @@ Howard Chung:
 </div>
 
 * [howardchung.net](http://howardchung.net)
-* [/u/suuuncon](http://reddit.com/user/suuuncon)
-* [Player Profile](/players/88367253)
+* [/u/Snifflehopper](http://reddit.com/user/Snifflehopper)
 
 Howard's a software engineer (Duke University '15) and casual Dota 2 player.
 His favorite heroes are Nature's Prophet, Terrorblade, and Lycan, so he's probably that guy you hate in your pub matches.
@@ -100,7 +98,6 @@ Nicholas Hanson-Holtry:
 </div>
 
 * [/u/waterandshade](http://reddit.com/user/waterandshade)
-* [Player Profile](/players/75392401)
 
 Nick comes up with ideas for cool machine learning things to do with the data.
 We're trying to get him to do more.
