@@ -39,7 +39,7 @@ Autoscaling:
 
  * Instance groups also allow autoscaling based on CPU usage.
  * During off-peak hours, we might have only 5-8 instances running, whereas during peak hours, we might have around 15-20.
- * This elastic resizing saves money since we do not pay for infrastructure we are not actively using (instances are billedper-minute).
+ * This elastic resizing saves money since we do not pay for infrastructure we are not actively using (instances are billed per minute).
 
 Deployment
 ----
@@ -47,7 +47,7 @@ Deployment
 Data:
 
  * The database software is rarely updated.
- * All three (Cassandra, Postgres, Redis) run using Docker images which can be versioned by changing the version number andre-creating   the container.
+ * All three (Cassandra, Postgres, Redis) run using Docker images which can be versioned by changing the version number and re-creating   the container.
  * The data is saved to persistent disks mounted into the instance so it survives the container re-creation.
 
 Code:
