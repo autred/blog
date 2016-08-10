@@ -7,6 +7,8 @@ categories:
 
 We get this question a lot.  Hopefully this post answers the question and explains why we haven't done this.
 
+Every few months, someone will suggest that we should have users parse replays, similar to how distributed computing proejcts like folding@home work.  There are a few reasons that we haven't attempted to do this:
+
 * **Development Overhead** We would need to create a desktop client for users to download, install, and run on their own machines, which could be on many different platforms. This would mean additional code to maintain and more testing to be done.
 
 * **Parser Updates** When the parser gets updated (e.g. to extract some new data, or replay format changes), we would need all users to upgrade their parsing software quickly in order to submit consistent data. As anyone who has ever tried pushing software updates knows, this is often a vexing process.
