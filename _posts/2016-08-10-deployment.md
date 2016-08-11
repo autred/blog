@@ -10,23 +10,23 @@ YASP is hosted mostly on Google Compute Engine (GCE).
 This choice was made for two main reasons:
 
  * GCE offers flexible capacity resizing of both computational power and storage
- * GCE offers extremely cheap preemptible instances which are an excellent value for interruptible CPU-bound workloads, such asreplay parsing.
+ * GCE offers extremely cheap preemptible instances which are an excellent value for interruptible CPU-bound workloads, such as replay parsing.
 
 Infrastructure
 ----
 
-The current infrastructure consists of the following:
+The current infrastructure consists of the following, with approximate monthly cost:
 
- * 4 Cassandra nodes, 2TB HDD each (hm-4)
- * 1 Postgres node, 200GB SSD (hm-2)
- * 1 Redis node, 50GB SSD (hm-4)
- * 3 web nodes (preemptible g1-small, autoscaling up to 10 nodes)
- * 3 parse nodes (preemptible highcpu-2, autoscaling up to 40 nodes)
- * 1 backend node (preemptible highcpu-4)
- * 6 retriever nodes
- * 4 proxy nodes
+ * 4 Cassandra nodes, 2TB HDD each (hm-4) ~ $512 + $320 = $832
+ * 1 Postgres node, 200GB SSD (hm-2) ~ $64 + $34 = $108
+ * 1 Redis node, 50GB SSD (hm-4) ~ $128 + $9 = $137
+ * 3 web nodes (preemptible g1-small, autoscaling up to 10 nodes) ~ $15
+ * 15 parse nodes (preemptible highcpu-2, autoscaling from 3 to 30 nodes) ~ $162
+ * 1 backend node (preemptible highcpu-4) ~ $22
+ * 6 retriever nodes ~ $42
+ * 4 proxy nodes ~ $16
 
-Each node also has a 10GB SSD disk attached as a boot disk.
+Each node also has a 10GB SSD disk attached as a boot disk, which adds around $50.  Egress traffic also costs about $0.12 per GB, which adds another $50.
 
 Preemptible:
 
@@ -69,7 +69,7 @@ Schema updates:
  * To apply schema updates, ssh into a database node.  GCE has a one-click button to do this from their web portal.
  * Once in the node, running `sudo docker ps` lists the running containers.
  * Enter a shell within the container: `sudo docker exec -it postgres bash`
- * Open a query shell for the database `cqlsh` or `psql -U postgres yasp`
+ * Open a query shell for the database `cqlsh -k yasp` or `psql -U postgres yasp`
  * Run any schema updates/index builds
 
 Administration:
@@ -77,11 +77,13 @@ Administration:
  * GCE command line tool `gcloud`: https://cloud.google.com/sdk/downloads
  * Cassandra admin tool `nodetool`
    * `nodetool status` for cluster information
- * Cassandra query shell `cqlsh`
+ * Cassandra query shell `cqlsh -k yasp`
  * Postgres shell `psql -U postgres yasp`
  * Redis shell `redis-cli`
- * Backend runs multiple processes at once via `pm2`
+ * List Docker containers: `sudo docker ps`
+ * Enter a Docker container: `sudo docker exec -it $CONTAINER_NAME bash`
+ * Backend node runs multiple processes at once via `pm2`
    * `pm2 list` shows running processes
    * `pm2 logs` shows logs
-    * `pm2 reload` reloads a process
-  * Docker logs: `sudo docker logs -f --tail 100 parser`
+   * `pm2 reload` reloads a process
+ * Otherwise, use Docker logs directly: `sudo docker logs -f --tail 100 $CONTAINER_NAME`
