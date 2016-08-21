@@ -68,8 +68,10 @@ Schema updates:
 
  * To apply schema updates, ssh into a database node.  GCE has a one-click button to do this from their web portal.
  * Once in the node, running `sudo docker ps` lists the running containers.
- * Enter a shell within the container: `sudo docker exec -it postgres bash`
- * Open a query shell for the database `cqlsh -k yasp` or `psql -U postgres yasp`
+ * Enter a shell within the container: `sudo docker exec -it $CONTAINER_NAME bash`
+ * Open a query shell for the database:
+   * Cassandra: `cqlsh -k yasp`
+   * Postgres: `psql -U postgres yasp`
  * Run any schema updates/index builds
 
 Administration:
