@@ -7,7 +7,7 @@ tags: about
 
 ## How are you different from all the other stats sites?
 
-Here are some of the features we think make us unique.  We also try to focus development on features that aren't already available elsewhere for free.
+Here are some of the features we think are unique. We also try to focus development on features that aren't already freely available.
 
 * Public match replay parsing.  Replay parsing allows us to extract much more data from games than the WebAPI offers.
 
@@ -26,7 +26,7 @@ Once enabled, any matches played after that point should show up in your profile
 
 This data comes from replay files (not the WebAPI), and there are several reasons:
 
-* The replay isn't ready yet.  There is usually a delay after the match (~10 minutes) while we wait for Valve to make the replay downloadable. 
+* The match was just played.  There is usually a delay after the match (~10 minutes) while we wait for Valve to make the replay downloadable. 
 
 * The replay might not be available.  This happens occasionally, particularly in the SEA region.  If you can't get the replay in the client, we can't get it either.
 
@@ -38,12 +38,6 @@ This data comes from replay files (not the WebAPI), and there are several reason
 
 * The replay is expired.  Valve deletes replays after 10 days.  This means we probably won't be able to do replay parsing for most matches before you registered.  Parsed matches before that point are due to other players in the game having signed up previously.
 
-
-## What do I do if I want to develop a feature/report a bug?
-
-[Open an issue on GitHub](https://github.com/yasp-dota/yasp/issues) if you'd like to work on a feature or report a bug.
-
-
 ## How do you make money/keep the site running?
 
 This started as a side project of a couple of college students and it still operates that way.
@@ -51,22 +45,19 @@ We don't intend to make a profit from it, although we try to at least break even
 We're also happy to share our knowledge with the community by completely open-sourcing the entire site and stack we run it on.
 
 Development is done by volunteers contributing in their free time, so we don't have employees to pay.
-Donations from users pay for servers.
+Donations from users and corporate sponsorships pay for servers.
 
 ## Can I use your code in my own project?
 
-All of our code is licensed under the GNU GPLv3.
-This means you are free to use it in your own project.
-The GPL states that if you make modifications to the software and distribute it, you should make those modifications open source as well.
-We would also appreciate a credit/attribution in your project if you use our code.
+The code is licensed under the GNU GPLv3. This means you are free to use it in your own project. The GPL states that if you make modifications to the software and distribute it, you should make those modifications open source as well. We would also appreciate a credit/attribution in your project if you use our code.
 
-## Who are the people behind the site?
+## Who maintains the project?
 
-Development is done by the community, and is open to any interested developer.
+Development is done by the community, and is open to anyone who's interested.
 
-A publicly hosted deployment is managed by some of the contributors:
+A publicly hosted deployment of the code is managed by some of the contributors:
 
-Albert Cui:
+##Albert Cui:
 
 <div>
 <img src="https://avatars3.githubusercontent.com/u/3838552?v=3&s=150"/>
@@ -74,11 +65,12 @@ Albert Cui:
 
 * [albertcui.com](http://albertcui.com)
 * [/u/Triple_A](http://reddit.com/user/Triple_A)
+* [@albertcui](http://github.com/albertcui)
 
 Albert founded the project.
 He built the donation system, writes blog posts, creates data dumps, and produces financial reports.
 
-Howard Chung:
+##Howard Chung:
 
 <div>
 <img src="https://avatars2.githubusercontent.com/u/3134520?v=3&s=150"/>
@@ -86,21 +78,23 @@ Howard Chung:
 
 * [howardchung.net](http://howardchung.net)
 * [/u/Snifflehopper](http://reddit.com/user/Snifflehopper)
+* [@howardchung](http://github.com/howardchung)
 
-Howard's a software engineer (Duke University '15) and casual Dota 2 player.
+Howard is a volunteer contributor and casual Dota 2 player.
 His favorite heroes are Nature's Prophet, Terrorblade, and Lycan, so he's probably that guy you hate in your pub matches.
 He wrote most of the code, believes in rapid deployment cycles, and tries not to break things too much.
 
-Nicholas Hanson-Holtry:
+##Nicholas Hanson-Holtry:
 
 <div>
 <img src="https://avatars1.githubusercontent.com/u/9388670?v=3&s=150"/>
 </div>
 
+* [nicholashh.com](http://www.nicholashh.com)
 * [/u/waterandshade](http://reddit.com/user/waterandshade)
+* [@nicholashh](https://github.com/nicholashh)
 
-Nick comes up with ideas for cool machine learning things to do with the data.
-We're trying to get him to do more.
+Nick comes up with ideas for cool machine learning things to do with the data, and occasionally helps out with deployments.
 
 ## What is your privacy policy?
 
@@ -110,19 +104,4 @@ We're trying to get him to do more.
 
 ## What are your terms and conditions?
 
-* We do our best to keep the site running, but cannot make any guarantees of availability, including for donators.
-* We are unable to provide refunds for donations.
-
-## I have subscription-related questions.
-* Can I change my subscription?
-  * Besides canceling? No. If you want to change the amount or the payment method, cancel and remake it.
-* Can I have multiple subscriptions?
-  * Yes. Cause you're super duper!
-* Something is wrong! I'm being billed a lot! Or something.
-  * Email us at support@yasp.co. Sorry about that.
-* How can I cancel my subscription?
-  * Click [here](https://yasp.co/cancel). This will cancel ALL your subscriptions.
-            
-## How can I help if I don't know how to code?
-
-If you're not a developer, you can buy some <a href='//yasp.co/carry' target="_blank">Cheese</a> to help pay for servers, or tell your friends about how awesome this site is : )
+* Since the service relies on Valve infrastucture, we cannot make any guarantees of availability, including for donators.
