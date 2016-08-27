@@ -57,8 +57,8 @@ Development is done by the community, and is open to anyone who's interested.
 
 A publicly hosted deployment of the code is managed by some of the contributors:
 
-##Albert Cui:
-
+Albert Cui:
+----
 <div>
 <img src="https://avatars3.githubusercontent.com/u/3838552?v=3&s=150"/>
 </div>
@@ -70,8 +70,8 @@ A publicly hosted deployment of the code is managed by some of the contributors:
 Albert founded the project.
 He built the donation system, writes blog posts, creates data dumps, and produces financial reports.
 
-##Howard Chung:
-
+Howard Chung:
+----
 <div>
 <img src="https://avatars2.githubusercontent.com/u/3134520?v=3&s=150"/>
 </div>
@@ -84,8 +84,8 @@ Howard is a volunteer contributor and casual Dota 2 player.
 His favorite heroes are Nature's Prophet, Terrorblade, and Lycan, so he's probably that guy you hate in your pub matches.
 He wrote most of the code, believes in rapid deployment cycles, and tries not to break things too much.
 
-##Nicholas Hanson-Holtry:
-
+Nicholas Hanson-Holtry:
+----
 <div>
 <img src="https://avatars1.githubusercontent.com/u/9388670?v=3&s=150"/>
 </div>
