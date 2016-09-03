@@ -4,7 +4,7 @@ email:       ""
 author:      ""
 description: ""
 baseurl:     "/blog"
-url:         "/"
+url:         "/blog"
 date_format: "%b %-d, %Y"
 
 # Google services
