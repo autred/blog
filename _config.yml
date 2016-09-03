@@ -6,7 +6,7 @@ description: ""
 baseurl:     "/blog"
 url:         ""
 date_format: "%b %-d, %Y"
-paginate_path: "/blog/page:num"
+paginate_path: "/page:num"
 
 # Google services
 google_verification:
