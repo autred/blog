@@ -3,7 +3,7 @@ title:       Blog
 email:       ""
 author:      ""
 description: ""
-baseurl:     "/blog"
+baseurl:     "/"
 url:         ""
 date_format: "%b %-d, %Y"
 
