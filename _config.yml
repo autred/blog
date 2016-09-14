@@ -3,8 +3,8 @@ title:       Blog
 email:       ""
 author:      ""
 description: ""
-baseurl:     "/"
-url:         "/"
+baseurl:     ""
+url:         ""
 date_format: "%b %-d, %Y"
 
 # Google services
