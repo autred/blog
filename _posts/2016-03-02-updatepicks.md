@@ -1,8 +1,10 @@
-{{{
-  "title": "Update on Picks",
-  "date": "3-2-2016",
-  "author": "HowardC"
-}}}
+---
+layout:     post
+title:      Update On Picks
+date:       2016-03-02 00:00:00
+summary:    An update on the state of picks
+categories: 
+---
 
 I've removed Tetrads and Pentads from the Picks data.
 
