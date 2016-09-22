@@ -1,8 +1,10 @@
-{{{
-  "title": "All Your Dota Are Belong to Us",
-  "date": "4-23-2016",
-  "author": "Pascal and Albert"
-}}}
+---
+layout:     post
+title:      All Your Dota Are Belong to Us
+date:       2016-04-23 00:00:00
+summary:    Getting every match ever played
+categories: 
+---
 
 New YASP users always had the question: "Where the heck are my matches? What crappy website is this?"
 
@@ -19,13 +21,13 @@ gotta check how much better you are than your friends. Well, search is now [here
 Note: first-time loads of profile pages might be slow. We're working on making this faster. Subsequent loads should be much faster.
 
 Finally, MMR has always been a misleading number. Some players have high MMR on specific heroes and probably much lower MMR
-on others. (OD/Invoker spammers?) Today, we're releasing [rankings](/rankings) to show you exactly who's the best at what heroes.
+on others. (OD/Invoker spammers?) Today, we're releasing [rankings](/rankings) to show you exactly who's the best at what heroes.  
 * Players are scored on heroes based on ranked games played, win rate, and MMR. The full details are available on GitHub if you'd 
-  like to propose changes to the ranking algorithm. We'll probably tweak this ourselves as well.
-* Each hero's top-ranked players are shown on the corresponding hero page.
-* Each player page now has a [new tab](https://yasp.co/players/88367253/rankings) showing their rank and percentile for every hero eligible for ranking.
-* Only ranked games are counted and only players with a publicly shared MMR are eligible for rankings, since MMR is part of the ranking calculation.
-* Rankings are reset quarterly.
+  like to propose changes to the ranking algorithm. We'll probably tweak this ourselves as well.  
+* Each hero's top-ranked players are shown on the corresponding hero page.  
+* Each player page now has a [new tab](https://yasp.co/players/88367253/rankings) showing their rank and percentile for every hero eligible for ranking.  
+* Only ranked games are counted and only players with a publicly shared MMR are eligible for rankings, since MMR is part of the ranking calculation.  
+* Rankings are reset quarterly.  
 
 Thanks for all your support! At the time of this post, we've raised $1133 out of $1400 of our monthly Cheese goal. All funds go directly
 toward running the site. You can see our April financial report [here](/post/april-2016-yasp-financials).
