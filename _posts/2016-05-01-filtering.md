@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Improved Filtering
-summary:    We're pushing out a small, but powerful update today: top matches.
+summary:    We're pushing out a small, but powerful update today--top matches.
 ---
 
 Happy May!
