@@ -1,8 +1,8 @@
-{{{
-  "title": "Global Performance Benchmarks!",
-  "date": "4-10-2016",
-  "author": "Albert"
-}}}
+---
+layout:     post
+title:      Global Performance Benchmarks!
+summary:    Measuring up against the world
+---
 
 Today we're pushing out [global performance benchmarks](/benchmarks). See how every hero performs across all player skill levels 
 in a variety of stats, including last hits, GPM, and kills.
@@ -18,7 +18,7 @@ to help you get started!
 
 YASP also remains completely crowd funded. Last month, the generous Dota 2 community came out in droves to
 support YASP financially, giving us over $3000 in donations! All proceeds go fully towards our server costs.
-Want to help out? Check out our [carry](/carry) page. Everyone wants to be a carry :) Even better, you'll
+Want to help out? Check out our carry page. Everyone wants to be a carry :) Even better, you'll
 be a support at the same time!
 
 Thank you everyone for all your support!

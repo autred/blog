@@ -2,7 +2,6 @@
 layout:     post
 title:      Match Cosmetics
 summary:    Cosmetics present in match data now available
-categories: 
 ---
 
 Wow, that PA looked so cool! I wonder what she was wearing...

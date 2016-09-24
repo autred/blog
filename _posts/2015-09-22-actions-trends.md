@@ -1,13 +1,8 @@
-{{{
-  "title": "Actions, Trends, and More!",
-  "tags": ["release"],
-  "date": "9-22-2015",
-  "author": "Albert"
-}}}
-
-Today we're releasing a few new features!
-
-<!--more-->
+---
+layout:     post
+title:      Actions, Trends, and More!
+summary:    Today we're releasing a few new features!
+---
 
 * Actions: How many times you issue a move command during a game?  Do your friends make use of Attack Move? 
   Get a complete breakdown of the command types each player issued during the game.  We also compute an APM (Actions Per Minute) stat based on this data.

@@ -1,8 +1,8 @@
-{{{
-  "title": "Be Our Valentine. We have uploads!",
-  "date": "2-13-2016",
-  "author": "Albert"
-}}}
+---
+layout:     post
+title:      Be Our Valentine. We have uploads!
+summary:    A few new features for Valentine's Day
+---
 
 Your one-true-love has gotten even sexier. Today, we're rolling out a few hot, new features:
 

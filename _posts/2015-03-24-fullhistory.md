@@ -1,13 +1,11 @@
-{{{
-  "title": "Full History For Everyone!",
-  "tags": ["feature"],
-  "date": "3-24-2015",
-  "author": "Howard"
-}}}
+---
+layout:     post
+title:      Full History For Everyone!
+summary:    Improving the user experience
+---
 
 Thanks go to all our users, especially those who donated!
 
-<!--more-->
 The site has grown quite a bit since we first started this project.  There are two things that we consider our "core features":
 * Replay parsing.  As far as we're aware, we are the only service that offers free replay parsing of Dota 2 matches.
 * Personal analytics.  We want to provide users with the tools to compute useful (and funny) stats about their own matches.
@@ -32,4 +30,3 @@ If you have any ideas to help us improve this, please let us know!
 
 And finally, another thanks for our donators, who make it possible for us to add new features and expand our scope!
 
--Howard

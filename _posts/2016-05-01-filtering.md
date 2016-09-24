@@ -1,12 +1,10 @@
-{{{
-  "title": "Improved Filtering",
-  "date": "5-1-2016",
-  "author": "Albert"
-}}}
+---
+layout:     post
+title:      Improved Filtering
+summary:    We're pushing out a small, but powerful update today: top matches.
+---
 
 Happy May!
-
-We're pushing out a small, but powerful update today: top matches.
 
 Even veteran YASP users might not be aware of our filtering feature. On a player profile you can click the "Apply A Filter"
 button to narrow down your results. Remember playing an awesome Zeus game but now you can't find it? Want to know your

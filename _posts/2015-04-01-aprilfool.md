@@ -1,13 +1,10 @@
-{{{
-  "title": "Throws",
-  "tags": ["release"],
-  "date": "4-1-2015",
-  "author": "Albert"
-}}}
+---
+layout:     post
+title:      Throws (April Fools' 2015)
+summary:    Now measuring the level of 322 in your matches.
+---
 
-Introducing advanced analysis of throws.
-
-<!--more-->
+Introducing advanced analysis of throws:
 
 With parsed data of all our users, we're able to analyze really what causes a throw.
 
@@ -32,4 +29,4 @@ We hope you all enjoy this new statistic.
 
 Have a happy April 1st.
 
-You can see our full 2.0 release <a href="/post/v200">here</a>. Happy gaming!
+You can see our full 2.0 release in the accompanying blog post. Happy gaming!

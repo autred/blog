@@ -2,7 +2,6 @@
 layout:     post
 title:      Instance Groups and Subscriptions
 summary:    Improving YASP's stability and reliability has always been a primary goal of ours.
-categories: 
 ---
 
 Over the past ten months, we've rewritten our system architecture multiple times to allow us to (hopefully)

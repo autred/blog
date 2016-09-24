@@ -2,7 +2,6 @@
 layout:     post
 title:      Why we don't distribute parse work to users
 summary:    Answer to a commonly asked question.
-categories: 
 ---
 
 Every few months, someone will suggest that we should have users parse replays, similar to how distributed computing projects like folding@home work.  There are a few reasons that we haven't attempted to do this:

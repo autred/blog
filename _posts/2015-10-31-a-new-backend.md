@@ -1,13 +1,10 @@
-{{{
-  "title": "A New Backend!",
-  "tags": ["announcement"],
-  "date": "10-31-2015",
-  "author": "Albert"
-}}}
+---
+layout:     post
+title:      A New Backend
+summary:    Changing databases to plan for the future
+---
 
 Say farewell to MongoDB and hellllooo to PostgreSQL!
-
-<!--more-->
 
 This doesn't change much about how you use the site. But we hope you feel its effects. This update
 should improve site speed and stability.
@@ -26,4 +23,4 @@ We're also added new features:
 
 We've also made various bug fixes around the site.
 
-Thanks for your continued support! Like what we're doing? Consider some <a href="/carry">cheese</a>!
+Thanks for your continued support! Like what we're doing? Consider some cheese!

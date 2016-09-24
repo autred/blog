@@ -2,7 +2,6 @@
 layout:     post
 title:      Deployment and Infrastructure
 summary:    An overview of the deployment process and infrastructure that powers the service.
-categories: 
 ---
 
 YASP is hosted mostly on Google Compute Engine (GCE). 

@@ -1,13 +1,10 @@
-{{{
-  "title": "Architecture Overview",
-  "tags": ["tech"],
-  "date": "3-5-2015",
-  "author": "Howard"
-}}}
+---
+layout:     post
+title:      Architecture Overview
+summary:    A brief behind-the-scenes look at the service
+---
 
 In this post I'll talk a little bit about the infrastructure and code architecture. I may expand it if I have more time.
-
-<!--more-->
 
 This site began as a fork of RJacksonm1's matchurls, which was an example of programmatically obtaining replay salts.
 The salts are required to download the replays, as Valve removed them from the WebAPI several years ago.
