@@ -24,7 +24,7 @@ Methodology:
 
  * When a player wins a match, they score points equal to (average visible MMR in match / 1000) ^ 7 for the hero they played.  
  * We apply an exponent so higher MMRs are able to score points more rapidly than lower ones.  A match won at 6000 MMR scores 128 times as many points as one won at 3000 MMR.  
- * The division is intended to scale down the MMR to a reasonable number since we are applying an exponent to it.  
+ * The MMR division is intended to scale down the MMR since we are applying an exponent to it.  
  * The exponentiation factor has been adjusted several times to weight MMR more heavily and will be 7 starting 2016-10-01.  
  * Losses score negative points (new change for 2016-10-01).  This weights win rate more heavily.
  * Each hero has its own individual ranking list.
@@ -40,7 +40,7 @@ Reset (seasons):
 ----
 
  *  Rankings will reset every 3 months (January, April, July, and October 1st), which clears all lists.  This is for a couple of reasons:  
-  * Rankings should reflect recent data.  If a player has played thousands of games previously on a hero but hasn't in the last year, they should not occupy a permanent slot on the rankings.  
-  * It's easier to tweak and adjust the ranking formula when the rankings reset periodically (we can apply the new formula shortly prior to the reset and avoid having to back-calculate rankings for all previous matches).  
+   * Rankings should reflect recent data.  If a player has played thousands of games previously on a hero but hasn't in the last year, they should not occupy a permanent slot on the rankings.  
+   * It's easier to tweak and adjust the ranking formula when the rankings reset periodically (we can apply the new formula shortly prior to the reset and avoid having to back-calculate rankings for all previous matches).  
 
 If you have any suggestions or ideas, please open an issue on GitHub, or start a discussion on our Discord channel!  
