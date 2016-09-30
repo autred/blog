@@ -4,7 +4,7 @@ title:      Explaining Rankings
 summary:    An explanation of how rankings work
 ---
 
-This post hopefully will explain the methodology behind hero rankings in a more layman-friendly manner.  While the code is publicly available, it may not be understandable by many users.
+This post will hopefully explain the methodology behind hero rankings in a more layman-friendly manner.  While the code is publicly available, it may not be understandable by many users.
 
 Factors considered:  
 ====
