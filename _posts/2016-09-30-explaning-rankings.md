@@ -24,7 +24,7 @@ Methodology:
  * Each hero has its own individual ranking list.
  * The score used for the ranking is the sum of the points in the current ranking period.
 
-Data storage:
+Data storage:  
  * Hero rankings utilize Redis zsets (sorted sets) for fast update/lookup of any player's rank.  
  * The methodology currently in use has the benefit of being efficiently updated.  We simply need to INCR the player's score in the corresponding zset whenever they win a game.  
 
