@@ -40,10 +40,4 @@ brought in some revenue for us which has now given us a small rainy-day fund for
 that this revenue maintains itself so that we have more income stability and more money to invest
 in improving OpenDota.
 
-In other news, we've made a lot of progress in our [redesign](http://beta.opendota.com/matches/2685025165/overview)
-thanks to our amazing [contributors](https://github.com/odota/ui/graphs/contributors). Thank you all of you
-for the amazing work you've put into OpenDota. We're really exciting about this redesign, and hopefully you are, too!
-
-Please note, it's very much a work in progress. We'd love your feedback! Please submit any throug this [Google form](https://goo.gl/forms/NqUjJZ6r6Mzz9JcN2).
-
-Thanks for your support!
+Thanks for your continued support!
