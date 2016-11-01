@@ -26,7 +26,6 @@ Methodology:
  * We apply an exponent so higher MMRs are able to score points more rapidly than lower ones.  A match won at 6000 MMR scores 128 times as many points as one won at 3000 MMR.  
  * The MMR division is intended to scale down the MMR since we are applying an exponent to it.  
  * The exponentiation factor has been adjusted several times to weight MMR more heavily and will be 7 starting 2016-10-01.  
- * Losses score negative points (new change for 2016-10-01).  This weights win rate more heavily.
  * Each hero has its own individual ranking list.
  * The score used for the ranking is the sum of the points in the current ranking period.
 
